@@ -26,4 +26,4 @@ This will output something like:
 ## Contributors
 - [Clint Caywood](https://github.com/cratonica)
 - [Paul Vollmer](https://github.com/paulvollmer)
-- [Cameron Brill](https://github.com/cameronbrill): All i did was make it a go mod so i could `go install` instead of `go get`
+- [Cameron Brill](https://github.com/cameronbrill): All i did was make it a go module so i could `go install` instead of `go get`
