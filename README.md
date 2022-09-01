@@ -4,11 +4,11 @@ A simple utility to encode a file (or any other data) into a Go byte slice.
 
 Having [set up your Go environment](http://golang.org/doc/install), simply run
 
-    go get github.com/cratonica/2goarray
+    go install github.com/cameronbrill/2goarray
 
 Then use by piping a file into the utility and capturing the output. You must provide a name for the generated slice symbol and package name. For example:
 
-    $GOPATH/bin/2goarray MyArray mypackage < myimage.png > myimage.go
+    2goarray MyArray mypackage < myimage.png > myimage.go
 
 This will output something like:
 
@@ -26,3 +26,4 @@ This will output something like:
 ## Contributors
 - [Clint Caywood](https://github.com/cratonica)
 - [Paul Vollmer](https://github.com/paulvollmer)
+- [Cameron Brill](https://github.com/cameronbrill): All i did was make it a go mod so i could `go install` instead of `go get`
